@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CityInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:CityInfo.API.Controllers.CitiesController.GetCities">
+            <summary>
+            This shows the list of all the cities and the information including points of views information.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CityInfo.API.Controllers.CitiesController.GetCity(System.Int32)">
+            <summary>
+            This will provide information about a specific city.
+            </summary>
+            <param name="id">Mandatory</param>
+            <returns></returns>
+        </member>
+        <member name="M:CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterst(System.Int32)">
+            <summary>
+            This will provide points of interests of a specific city.
+            </summary>
+            <param name="cityId">Mandatory!</param>
+            <returns></returns>
+        </member>
+        <member name="M:CityInfo.API.Controllers.PointOfInterestController.GetPointOfInterest(System.Int32,System.Int32)">
+            <summary>
+             This will provide points of interests of a specific city and a specific point of interest.
+            </summary>
+            <param name="cityId">Mandatory!</param>
+            <param name="id">Mandatory!</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
